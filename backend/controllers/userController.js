@@ -25,7 +25,7 @@ module.exports.addUser = (async (req, res) => {
                         token = jwtToken.generateToken({ email: req.body.email, fullName: req.body.firstName + " " + req.body.lastName, id: data._id })
                         userSchema.updateOne({ email: req.body.email }, { tokenUser: token }).exec()
                         // userSchema.findOneAndUpdate({ email: req.body.email }, { $push: { devices: details } }).exec()
-                        res.status(201).json({ message: 'User Created', data: req.body.email })
+                        res.status(201).json({ message: 'User Created', data: req.body.email,token:token });
                     }).catch((error) => {
                         console.log(error)
                         res.status(400).json({ message: 'User Not Created', error: error })

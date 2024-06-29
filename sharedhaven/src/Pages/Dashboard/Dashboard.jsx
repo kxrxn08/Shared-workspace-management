@@ -6,40 +6,6 @@ const Dashboard = () => {
   return (
     <div>
  <div className="app">
-      <header className="app-header flex justify-between items-center p-4 bg-gray-900 text-white">
-        <div className="app-header-logo flex items-center">
-          <div className="logo flex items-center">
-            <span className="logo-icon mr-2">
-              <img src="https://assets.codepen.io/285131/almeria-logo.svg" alt="Almeria Logo" />
-            </span>
-            <h1 className="logo-title text-lg font-bold">
-              <span className="block text-sm">SharedHaven</span>
-            </h1>
-          </div>
-        </div>
-        
-        <div className="app-header-actions flex items-center">
-          <button className="user-profile flex items-center text-gray-300 hover:text-white">
-            <span className="mr-2">Matheo Peterson</span>
-            <span>
-              <img src="" alt="User Avatar" className="w-8 h-8 rounded-full" />
-            </span>
-          </button>
-          <div className="app-header-actions-buttons flex space-x-4 ml-4">
-            <button className="icon-button large text-gray-300 hover:text-white">
-              <i className="ph-magnifying-glass"></i>
-            </button>
-            <button className="icon-button large text-gray-300 hover:text-white">
-              <i className="ph-bell"></i>
-            </button>
-          </div>
-        </div>
-        <div className="app-header-mobile lg:hidden">
-          <button className="icon-button large text-gray-300 hover:text-white">
-            <i className="ph-list"></i>
-          </button>
-        </div>
-      </header>
       <div className="app-body flex">
         <div className="app-body-navigation w-64 bg-gray-800 text-white p-4">
           <nav className="navigation flex flex-col space-y-4">

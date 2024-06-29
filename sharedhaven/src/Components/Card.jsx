@@ -4,6 +4,7 @@ import img2 from "../Images/14.webp"
 import img3 from "../Images/5-1.webp"
 import img4 from "../Images/9.webp"
 import img5 from "../Images/6.webp"
+import Modal from './Modal';
 
 const Card = ({id,title,content,image2}) => {
   return (
@@ -16,6 +17,11 @@ const Card = ({id,title,content,image2}) => {
     <div className="mb-8 text-3xl">
       <div className="text-gray-900 font-bold mb-2">{title}</div>
       <p className="text-gray-700 text-xl">{content}</p>
+
+    </div>
+    <div className='mt-2'>
+
+      <Modal/>
     </div>
     {/* <div className="flex items-center">
       <img className="w-10 h-10 rounded-full mr-4" alt="Avatar of Jonathan Reinink"/>

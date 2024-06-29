@@ -76,7 +76,8 @@ const Modal = () => {
             </div>
             <div className="p-4 md:p-5 space-y-4">
               <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                With less than a month to go before the European Union enacts new consumer privacy laws for its citizens, companies around the world are updating their terms of service agreements to comply.
+              Acceptance of Terms: By using OurPlatform, you agree to these terms and conditions. We may update them from time to time, and it is your responsibility to review them regularly.
+              User Conduct: You agree not to use OurPlatform for any unlawful or prohibited activities. This includes, but is not limited to, harassment, defamation, and transmission of harmful content.
                 <div className="p-4 w-full max-w-md mx-auto bg-black rounded-lg shadow-md dark:bg-gray-700">
       <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Book a Slot</h2>
       <div className="mb-4">
@@ -104,7 +105,7 @@ const Modal = () => {
     </div>
               </p>
               <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that could personally affect them.
+              We only allow one day of booking in our system.
               </p>
             </div>
             <div className="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">

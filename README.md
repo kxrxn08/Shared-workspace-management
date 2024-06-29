@@ -7,7 +7,6 @@ SharedHaven is a comprehensive platform designed to streamline the management of
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -37,9 +36,7 @@ SharedHaven is a comprehensive platform designed to streamline the management of
 - Secure payment gateway for processing booking fees and membership subscriptions.
 - Invoice generation and payment history tracking.
 
-## Demo
 
-Check out our [live demo](#) to see SharedHaven in action. <!-- Replace with actual demo link -->
 
 ## Tech Stack
 
@@ -78,22 +75,12 @@ To run SharedHaven locally, follow these steps:
 **2.2 Install the backend dependencies:**
 
 	npm install
-### 3.Set up environment variables:
-**3.1Create a .env file in the backend directory and add the required environment variables:**
-
-		PORT=5000
-		MONGO_URI=your_mongodb_connection_string
-		JWT_SECRET=your_jwt_secret
-		STRIPE_SECRET_KEY=your_stripe_secret_key
-
-
-**3.2 Start the backend server:**
-
+### 3.Start the backend server:
 	npm start
 ###  4. Frontend Setup (React)
 ##### 4.1 Navigate to the frontend directory:
 
-	cd ../frontend
+	cd ../sharedhaven
 
 
 **4.2 Install the frontend dependencies:**
@@ -103,14 +90,13 @@ To run SharedHaven locally, follow these steps:
 ### 	5. Set up environment variables:
 **Create a .env file in the frontend directory and add the required environment variables:**
 
-	REACT_APP_API_URL=http://localhost:5000
-	REACT_APP_STRIPE_PUBLIC_KEY=your_razorpay_public_key
+	REACT_APP_API_URL=http://localhost:3000
 
 #### 	**6. Start the frontend development server:**
 		npm start
 
 ### Running Both Servers
-Make sure both the backend and frontend servers are running. By default, the frontend server runs on http://localhost:3000 and the backend server on http://localhost:5000.
+Make sure both the backend and frontend servers are running. By default, the frontend server runs on http://localhost:3000 and the backend server on http://localhost:9999.
 
 
 # Usage

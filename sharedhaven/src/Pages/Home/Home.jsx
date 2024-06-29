@@ -5,12 +5,11 @@ import { Data } from '../../Data';
 const Home = () => {
   return (
     <div className="container-fluid bg-gray-200 h-100">
-      Home
       <div className="relative">
-        <h1 className=" absolute mx-5 my-5 text-white">
+        <div className=" absolute left-20 top-20 w-50 text-white fw-bold text-3xl border-l-4 pl-2 border-l-orange-500 text-center">
           Join a community of creators, innovators and thought leaders Choose
           your seat today.
-        </h1>
+        </div>
         <img src={img1} alt="" className="h-100 w-100" />
       </div>
       {

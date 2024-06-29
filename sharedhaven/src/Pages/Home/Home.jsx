@@ -15,7 +15,7 @@ const Home = () => {
       {
         Data?.map((e)=>{
           {console.log(e.image)}
-          return   <Card key={e.id} title={e.title} content={e.content}  image2={e.image} />
+          return   <Card key={e.id} title={e.title} content={e.content}  image2={e.image} price={e.price} />
         })
       }
     </div>

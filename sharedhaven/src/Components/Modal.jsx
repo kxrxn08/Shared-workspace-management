@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import DatePicker from 'react-datepicker';
+import swal from 'sweetalert';
+
 import 'react-datepicker/dist/react-datepicker.css';
 const Modal = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +26,7 @@ const Modal = () => {
       if (selectedDate) {
         setBookingConfirmed(true);
         toggleModal();
+        swal("Hurrah !", "You booked your workspace successfully 🎉🎉!", "success");
       } else {
         alert('Please select a date.');
       }

@@ -24,15 +24,15 @@ const genMail = async (to) => {
         port: 587,
         secure: false,
         auth: {
-            user: "bookmycoiffeur@gmail.com",
-            pass: "wfnkzavlldanytst",
+            user: "sharedhaven@gmail.com",
+            pass: "sharedhaven",
           },
     })
     var otp2=optFunction()
     // otp(to)
 
     const mailOptions = {
-        from: 'bookmycoiffeur@gmail.com',
+        from: 'sharedhaven@gmail.com',
         to: to,
         subject: "OTP Verification",
         html: `

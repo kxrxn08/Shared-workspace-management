@@ -49,8 +49,8 @@ const Dashboard = () => {
                 <div className="tile-header flex items-center mb-4">
                   <i className="ph-lightning-light text-yellow-500 mr-2"></i>
                   <h3>
-                    <span className="block text-lg font-bold">Electricity</span>
-                    <span className="block text-gray-500">UrkEnergo LTD.</span>
+                    <span className="block text-lg font-bold">Dedicated Seating</span>
+                    <span className="block text-gray-500">Technman Consulting</span>
                   </h3>
                 </div>
                 <a href="#" className="flex items-center text-blue-600 hover:underline">
@@ -68,8 +68,7 @@ const Dashboard = () => {
           <section className="transfer-section">
             <div className="transfer-section-header flex justify-between items-center mb-4">
               <h2 className="text-2xl font-bold">Latest transfers</h2>
-              <div className="filter-options flex items-center">
-                <p className="text-gray-500 mr-4">Filter selected: more than $100</p>
+              <div className="filter-options flex items-center">  
                 <button className="icon-button text-gray-500 hover:text-black mr-2">
                   <i className="ph-funnel"></i>
                 </button>
@@ -80,17 +79,14 @@ const Dashboard = () => {
             </div>
             <div className="transfers space-y-4">
               <div className="transfer flex items-center bg-white p-4 rounded shadow">
-                <div className="transfer-logo mr-4">
-                  <img src="https://assets.codepen.io/285131/apple.svg"height="20px" width="20px"  alt="Apple" />
-                </div>
                 <dl className="flex-1 flex justify-between items-center">
                   <div>
-                    <dt className="text-lg font-bold">Apple ID Payment</dt>
+                    <dt className="text-lg font-bold">Dedicated seating</dt>
                     <dd className="text-gray-500">today at 16:55</dd>
                   </div>
                   <div>
-                    <dt className="text-lg font-bold text-red-600">-$550</dt>
-                    <dd className="text-gray-500">USD</dd>
+                    <dt className="text-lg font-bold text-green-600">5000</dt>
+                    <dd className="text-gray-500">Rupees</dd>
                   </div>
                 </dl>
               </div>
